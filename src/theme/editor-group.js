@@ -1,0 +1,46 @@
+const { lightness } = require('../base/util');
+
+exports.editorGroup = function(color) {
+    return {
+        'editorGroup.border': lightness(color.bg, -2),
+        // 'editorGroup.dropBackground': '',
+        // 'editorGroupHeader.noTabsBackground': '',
+        'editorGroupHeader.tabsBackground': lightness(color.bg, -2),
+        'editorGroupHeader.tabsBorder': color.bg,
+        'editorGroupHeader.border': color.bg,
+        'editorGroup.emptyBackground': color.bg,
+        'editorGroup.focusedEmptyBorder': color.bg,
+        // 'editorGroup.dropIntoPromptForeground': '',
+        // 'editorGroup.dropIntoPromptBackground': '',
+        // 'editorGroup.dropIntoPromptBorder': '',
+
+        'tab.activeBackground': color.bg,
+        // 'tab.unfocusedActiveBackground': '',
+        'tab.activeForeground': color.fg,
+        'tab.border': lightness(color.bg, -2),
+        'tab.activeBorder': color.bg,
+        // 'tab.unfocusedActiveBorder': '',
+        'tab.activeBorderTop': color.bg,
+        // 'tab.unfocusedActiveBorderTop': '',
+        // 'tab.lastPinnedBorder': '',
+        'tab.inactiveBackground': lightness(color.bg, -2),
+        // 'tab.unfocusedInactiveBackground': '',
+        'tab.inactiveForeground': color.fg,
+        // 'tab.unfocusedActiveForeground': '',
+        // 'tab.unfocusedInactiveForeground': '',
+        'tab.hoverBackground': lightness(color.bg, 4),
+        // 'tab.unfocusedHoverBackground': '',
+        'tab.hoverForeground': color.fg,
+        // 'tab.unfocusedHoverForeground': '',
+        'tab.hoverBorder': lightness(color.bg, -2),
+        // 'tab.unfocusedHoverBorder': '',
+        // 'tab.activeModifiedBorder': '',
+        // 'tab.inactiveModifiedBorder': '',
+        // 'tab.unfocusedActiveModifiedBorder': '',
+        // 'tab.unfocusedInactiveModifiedBorder': '',
+
+        'editorPane.background': color.bg,
+        // 'sideBySideEditor.horizontalBorder': '',
+        // 'sideBySideEditor.verticalBorder': '',
+    }
+}

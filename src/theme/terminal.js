@@ -1,0 +1,40 @@
+const { lightness } = require('../base/util');
+
+exports.terminal = function(color) {
+    return {
+        'terminal.background': color.bg,
+        'terminal.border': color.bg,
+        'terminal.foreground': lightness(color.bg, 32),
+        'terminal.ansiBlack': color.fg,
+        'terminal.ansiBrightBlack': color.fg,
+        'terminal.ansiBrightBlue': color.blue,
+        'terminal.ansiBrightCyan': color.cyan,
+        'terminal.ansiBrightGreen': color.green,
+        'terminal.ansiBrightMagenta': color.magenta,
+        'terminal.ansiBrightRed': color.red,
+        'terminal.ansiBrightWhite': color.fg,
+        'terminal.ansiBrightYellow': color.yellow,
+        'terminal.ansiBlue': color.blue,
+        'terminal.ansiCyan': color.cyan,
+        'terminal.ansiGreen': color.green,
+        'terminal.ansiMagenta': color.magenta,
+        'terminal.ansiRed': color.red,
+        'terminal.ansiWhite': color.fg,
+        'terminal.ansiYellow': color.yellow,
+        'terminal.selectionBackground': lightness(color.bg, 6),
+        // 'terminal.selectionForeground': null,
+        'terminal.findMatchBackground': lightness(color.bg, 4),
+        // 'terminal.findMatchBorder': '',
+        'terminal.findMatchHighlightBackground': lightness(color.bg, 4),
+        // 'terminal.findMatchHighlightBorder': '',
+        'terminalCursor.background': color.fg,
+        'terminalCursor.foreground': color.fg,
+        // 'terminal.dropBackground': '',
+        'terminal.tab.activeBorder': color.cyan,
+        // 'terminalCommandDecoration.defaultBackground': '',
+        // 'terminalCommandDecoration.successBackground': '',
+        // 'terminalCommandDecoration.errorBackground': '',
+        // 'terminalOverviewRuler.cursorForeground': '',
+        // 'terminalOverviewRuler.findMatchForeground': ''
+    }
+}
