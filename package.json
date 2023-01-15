@@ -1,6 +1,6 @@
 {
-  "name": "siberia",
-  "displayName": "siberia",
+  "name": "siberia-theme",
+  "displayName": "siberia-theme",
   "description": "",
   "version": "0.0.1",
   "engines": {
@@ -23,8 +23,8 @@
     ],
     "iconThemes": [
       {
-        "label": "Siberia minimal",
-        "id": "Siberia minimal",
+        "label": "Siberia Minimal",
+        "id": "Siberia Minimal",
         "path": "./icon-themes/siberia-minimal.json"
       }
     ]

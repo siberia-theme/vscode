@@ -253,7 +253,7 @@
     "diffEditor.removedLineBackground": "#3d3947",
     "debugToolBar.background": "#292d3a"
   },
-  "semanticHighlighting": false,
+  "semanticHighlighting": true,
   "tokenColors": [
     {
       "scope": [
@@ -389,7 +389,7 @@
         "meta.decorator"
       ],
       "settings": {
-        "foreground": "#ada0d3"
+        "foreground": "#ecbfa1"
       }
     },
     {

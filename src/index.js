@@ -66,7 +66,7 @@ const themeColors = {
 const theme = {
     name: "Siberia",
     colors: themeColors,
-    semanticHighlighting: false,
+    semanticHighlighting: true,
     tokenColors: [
         {
             scope: [ 'comment', 'string.comment', 'comment.block', 'punctuation.definition.comment' ],
@@ -142,7 +142,7 @@ const theme = {
         },
         {
             scope: [ 'meta.decorator' ],
-            settings: { foreground: color.magenta }
+            settings: { foreground: color.yellow }
         },
 
         // // php
