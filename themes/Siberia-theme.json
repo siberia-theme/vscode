@@ -422,6 +422,16 @@
     },
     {
       "scope": [
+        "storage.type.js",
+        "storage.type.interface.js",
+        "storage.type.class.js"
+      ],
+      "settings": {
+        "foreground": "#91acd1"
+      }
+    },
+    {
+      "scope": [
         "keyword.operator.new.ts"
       ],
       "settings": {

@@ -2,7 +2,7 @@
   "name": "siberia-theme",
   "displayName": "siberia-theme",
   "description": "",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.73.0"
   },
@@ -18,7 +18,7 @@
       {
         "label": "Siberia Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/Siberia-color-theme.json"
+        "path": "./themes/Siberia-theme.json"
       }
     ],
     "iconThemes": [
