@@ -1,11 +1,13 @@
 {
   "name": "siberia-theme",
   "displayName": "siberia-theme",
-  "repository": { "url": "https://github.com/siberia-theme/vscode.git" },
+  "repository": {
+    "url": "https://github.com/siberia-theme/vscode.git"
+  },
   "publisher": "pavel-shatalov",
   "description": "",
   "icon": "siberia.png",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "engines": {
     "vscode": "^1.73.0"
   },
