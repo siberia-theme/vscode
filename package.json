@@ -1,6 +1,6 @@
 {
   "name": "siberia-theme",
-  "displayName": "siberia-theme",
+  "displayName": "Siberia",
   "repository": {
     "url": "https://github.com/siberia-theme/vscode.git"
   },
@@ -35,9 +35,7 @@
     ]
   },
   "devDependencies": {
-    "nodemon": "^2.0.20"
-  },
-  "dependencies": {
+    "nodemon": "^2.0.20",
     "hsluv": "^1.0.0"
   }
 }
