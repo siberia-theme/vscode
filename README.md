@@ -1,1 +1,1 @@
-![Screenshot](/screenshot.png)
+![Screenshot](https://github.com/siberia-theme/vscode/blob/main/screenshot.png?raw=true)
