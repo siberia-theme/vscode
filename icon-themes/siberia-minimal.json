@@ -14,11 +14,8 @@
       }
     },
     "file": "_file",
-    "fileNames": {
-      "_serendipity-theme.json": "_file-special"
-
-    },
     "folder": "_folder",
     "folderExpanded": "_folder-open",
-    "hidesExplorerArrows": true
+    "hidesExplorerArrows": true,
+    "showLanguageModeIcons": false
   }

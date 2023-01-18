@@ -20,5 +20,11 @@ exports.other = function(color, syntax) {
             scope: [ 'string.unquoted.plain.out.yaml' ],
             settings: { foreground: color.green }
         },
+
+        // Makefile
+        {
+            scope: [ 'entity.name.function.target.makefile' ],
+            settings: { foreground: color.cyan }
+        }
     ];
 }

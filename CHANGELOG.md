@@ -1,9 +1,27 @@
-# Change Log
+# Changelog
 
-All notable changes to the "siberia" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [0.2.0]
 
-## [Unreleased]
+### Added
+
+- Makefile token
+
+### Changed
+
+- Disabled language mode syntax
+- Updated linked editing highlight color
+
+## [0.1.2]
+
+### Added
+
+- Publisher info
+
+### Changed
+
+- Screenshot to version without shadow
+
+## [0.1.0]
 
 - Initial release

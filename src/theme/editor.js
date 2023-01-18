@@ -47,7 +47,7 @@ exports.editor = function(color) {
         // 'editorInlayHint.parameterForeground': '',
         // 'editorInlayHint.parameterBackground': '',
         'editorRuler.foreground': lightness(color.bg, 4) ,
-        // 'editor.linkedEditingBackground': '',
+        'editor.linkedEditingBackground': lightness(color.bg, 4),
         'editorCodeLens.foreground': lightness(color.bg, 16),
         'editorLightBulb.foreground': color.yellow,
         // 'editorLightBulbAutoFix.foreground': '',
