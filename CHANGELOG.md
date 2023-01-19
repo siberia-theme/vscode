@@ -7,6 +7,7 @@
 - Reworked status bar
 - Reworked quick picker
 - Changed progessbar color to cyan
+- Brighter selection and comments
 
 ## [0.2.0]
 
