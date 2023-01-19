@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.1]
+
+### Changed
+
+- Reworked status bar
+- Reworked quick picker
+- Changed progessbar color to cyan
 
 ## [0.2.0]
 

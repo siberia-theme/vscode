@@ -1,4 +1,4 @@
-const { lightness, alpha } = require('../base/util');
+const { lightness } = require('../base/util');
 
 exports.titleBar = function(color) {
     return {

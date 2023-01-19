@@ -4,10 +4,10 @@ exports.panel = function(color) {
     return {
         'panel.background': color.bg,
         'panel.border': color.bg,
-        // 'panel.dropBorder': '',
+        'panel.dropBorder': lightness(color.bg, -2),
         'panelTitle.activeBorder': color.bg,
         'panelTitle.activeForeground': color.fg,
-        'panelTitle.inactiveForeground': lightness(color.bg, 32),
+        'panelTitle.inactiveForeground': color.fgDimmed,
         // 'panelInput.border': '',
         // 'panelSection.border': '',
         // 'panelSection.dropBackground': '',

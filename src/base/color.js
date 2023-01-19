@@ -2,9 +2,9 @@ const { lightness } = require('./util');
 
 const color = {
     bg: '#2d313f',
-    fg: lightness('#2d313f', 56),
-    fgDimmed: "#616884",
-    fgBright: lightness('#2d313f', 64),
+    fg: '#b8bccd', // lightness('#2d313f', 56),
+    fgDimmed: '#616884',
+    fgBright: '#d0d3dd', // lightness('#2d313f', 64),
     red: '#e98989',
     green: '#7aa89f',
     orange: '#de9e77',
@@ -18,7 +18,7 @@ const color = {
 
 const syntax = {
     string: color.green,
-    comment: lightness(color.bg, 16),
+    comment: '#535a71', // lightness(color.bg, 18),
     number: color.magenta,
     languageConstant: color.yellow,
     constant: color.fgBright,

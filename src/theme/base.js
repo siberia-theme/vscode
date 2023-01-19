@@ -5,7 +5,6 @@ exports.base = function (color) {
         focusBorder: lightness(color.bg, -2),
         foreground: lightness(color.bg, 32),
         'widget.shadow': '#00000000',
-        'selection.background': lightness(color.bg, 16),
         descriptionForeground: lightness(color.bg, 32),
         errorForeground: color.red,
         'icon.foreground': color.fg,

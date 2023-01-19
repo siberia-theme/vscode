@@ -86,7 +86,8 @@ const theme = {
     tokenColors: tokenColors
 }
 
-fs.mkdir('../themes', { recursive: true })
+fs
+    .mkdir('../themes', { recursive: true })
     .then(() => Promise.all([
         fs.writeFile('./themes/Siberia-theme.json', JSON.stringify(theme, null, 2)),
     ]))

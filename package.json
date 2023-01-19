@@ -24,6 +24,11 @@
         "label": "Siberia Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/Siberia-theme.json"
+      },
+      {
+        "label": "Siberia Dark Dev",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Siberia-theme-dev.json"
       }
     ],
     "iconThemes": [

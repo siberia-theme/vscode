@@ -1,14 +1,14 @@
 const { lightness, alpha } = require('../base/util');
 
-exports.editor = function(color) {
-     return {
+exports.editor = function (color) {
+    return {
         'editor.background': color.bg,
         'editor.foreground': color.fg,
         'editorLineNumber.foreground': color.fgDimmed,
         'editorLineNumber.activeForeground': color.fgBright,
         'editorCursor.background': color.bg,
         'editorCursor.foreground': lightness(color.bg, 48),
-        'editor.selectionBackground': lightness(color.bg, 6),
+        'editor.selectionBackground': lightness(color.bg, 8),
         // 'editor.selectionForeground': '',
         // 'editor.inactiveSelectionBackground': '',
         // 'editor.selectionHighlightBackground': '',
@@ -46,7 +46,7 @@ exports.editor = function(color) {
         // 'editorInlayHint.typeBackground': '',
         // 'editorInlayHint.parameterForeground': '',
         // 'editorInlayHint.parameterBackground': '',
-        'editorRuler.foreground': lightness(color.bg, 4) ,
+        'editorRuler.foreground': lightness(color.bg, 4),
         'editor.linkedEditingBackground': lightness(color.bg, 4),
         'editorCodeLens.foreground': lightness(color.bg, 16),
         'editorLightBulb.foreground': color.yellow,
@@ -91,13 +91,13 @@ exports.editor = function(color) {
         // 'editorError.border': color.red,
         // 'editorError.background': alpha(color.red, 1),
         'editorWarning.foreground': color.yellow,
-      //   'editorWarning.border': null,
-      //   'editorWarning.background': null,
+        //   'editorWarning.border': null,
+        //   'editorWarning.background': null,
         'editorInfo.foreground': color.blue,
-      //   'editorInfo.border': color.blue,
-      //   'editorInfo.background': '',
+        //   'editorInfo.border': color.blue,
+        //   'editorInfo.background': '',
         'editorHint.foreground': color.red,
-      //   'editorHint.border': '',
+        //   'editorHint.border': '',
         // 'problemsErrorIcon.foreground': '',
         // 'problemsWarningIcon.foreground': '',
         // 'problemsInfoIcon.foreground': '',
@@ -117,5 +117,5 @@ exports.editor = function(color) {
         // 'editorCommentsWidget.rangeBorder': '',
         // 'editorCommentsWidget.rangeActiveBackground': '',
         // 'editorCommentsWidget.rangeActiveBorder': '',
-     }
+    }
 }
