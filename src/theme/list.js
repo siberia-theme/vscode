@@ -32,7 +32,7 @@ exports.list = function(color) {
         // 'tree.tableColumnsBorder': '',
         'tree.tableOddRowsBackground': lightness(color.bg, 2),
 
-        'keybindingLabel.background': lightness(color.bg, 8),
+        'keybindingLabel.background': lightness(color.bg, 16),
         'keybindingLabel.border': lightness(color.bg, -2),
         'keybindingLabel.bottomBorder': lightness(color.bg, -4)
     }

@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.4.0]
+
+### Added
+
+- Settings editor colors
+- Symbol icons colors
+- env files highlighting
+
+### Changed
+
+- Disabled word/selection highlights
+- Keybinding label color
+
 ## [0.3.0]
 
 ### Changed

@@ -8,5 +8,9 @@ exports.base = function (color) {
         descriptionForeground: lightness(color.bg, 32),
         errorForeground: color.red,
         'icon.foreground': color.fg,
+
+        'settings.modifiedItemIndicator': color.cyan,
+        'settings.rowHoverBackground': lightness(color.bg, -2),
+        'settings.focusedRowBackground': lightness(color.bg, -2),
     }
 }

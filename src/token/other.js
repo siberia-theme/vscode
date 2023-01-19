@@ -25,6 +25,12 @@ exports.other = function(color, syntax) {
         {
             scope: [ 'entity.name.function.target.makefile' ],
             settings: { foreground: color.cyan }
+        },
+
+        // env files
+        {
+            scope: [ 'variable.other.env' ],
+            settings: { foreground: color.cyan }
         }
     ];
 }

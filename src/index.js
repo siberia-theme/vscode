@@ -26,6 +26,7 @@ const {
     git,
     diffEditor,
     debug,
+    symbolIcons
 } = require('./theme');
 const {
     general,
@@ -35,7 +36,7 @@ const {
     html,
     other
 } = require('./token');
-const fs = require("fs").promises;
+const fs = require('fs').promises;
 
 const color = colors.base;
 const syntax = colors.syntax;
@@ -67,7 +68,8 @@ const themeColors = {
     ...notification(color),
     ...git(color),
     ...diffEditor(color),
-    ...debug(color)
+    ...debug(color),
+    ...symbolIcons(color)
 };
 
 const tokenColors = [
@@ -80,7 +82,7 @@ const tokenColors = [
 ];
 
 const theme = {
-    name: "Siberia",
+    name: 'Siberia',
     colors: themeColors,
     semanticHighlighting: true,
     tokenColors: tokenColors

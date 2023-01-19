@@ -24,3 +24,4 @@ Object.assign(exports, require('./notification'));
 Object.assign(exports, require('./git'));
 Object.assign(exports, require('./diff-editor'));
 Object.assign(exports, require('./debug'));
+Object.assign(exports, require('./symbol-icons'));
