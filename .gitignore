@@ -2,3 +2,4 @@ node_modules
 *.vsix
 /.vscode
 /examples
+/themes/Siberia-theme-dev.json
