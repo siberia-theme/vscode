@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.4.1]
+
+### Changed
+
+- Removed pesky snippet highlight color
+
 ## [0.4.0]
 
 ### Added

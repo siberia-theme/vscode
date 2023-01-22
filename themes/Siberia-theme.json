@@ -299,7 +299,9 @@
     "symbolIcon.textForeground": "#616884",
     "symbolIcon.typeParameterForeground": "#616884",
     "symbolIcon.unitForeground": "#616884",
-    "symbolIcon.variableForeground": "#616884"
+    "symbolIcon.variableForeground": "#616884",
+    "editor.snippetTabstopHighlightBackground": "#353a4a",
+    "editor.snippetFinalTabstopHighlightBackground": "#353a4a"
   },
   "semanticHighlighting": true,
   "tokenColors": [
