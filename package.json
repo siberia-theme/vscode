@@ -14,6 +14,12 @@
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "theme",
+    "dark",
+    "minimal",
+    "siberia"
+],
   "scripts": {
     "watch": "nodemon --watch src src/index.js",
     "build": "node src/index.js"

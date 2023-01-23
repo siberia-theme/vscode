@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.6.0]
+
+### Added
+
+- Keywords in package.json
+
 ## [0.5.0]
 
 ### Added
