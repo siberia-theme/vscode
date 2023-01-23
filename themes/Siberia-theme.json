@@ -104,6 +104,7 @@
     "editor.linkedEditingBackground": "#353a4a",
     "editorCodeLens.foreground": "#4f556b",
     "editorLightBulb.foreground": "#ecbfa1",
+    "editorLightBulbAutoFix.foreground": "#ecbfa1",
     "editorBracketMatch.background": "#3e4355",
     "editorBracketMatch.border": "#3e4355",
     "editorBracketHighlight.foreground1": "#b8bccd",
@@ -116,10 +117,14 @@
     "editor.foldBackground": "#3e4355",
     "editorOverviewRuler.background": "#2d313f",
     "editorOverviewRuler.border": "#2d313f",
+    "editorOverviewRuler.addedForeground": "#7aa89f",
+    "editorOverviewRuler.deletedForeground": "#e9898999",
+    "editorOverviewRuler.errorForeground": "#e98989",
+    "editorOverviewRuler.warningForeground": "#ecbfa1",
     "editorError.foreground": "#e9898999",
     "editorWarning.foreground": "#ecbfa1",
     "editorInfo.foreground": "#91acd1",
-    "editorHint.foreground": "#e98989",
+    "editorHint.foreground": "#91acd1",
     "editorUnnecessaryCode.border": "#4f556b33",
     "editorUnnecessaryCode.opacity": "#00000099",
     "editorGutter.background": "#2d313f",
@@ -482,6 +487,14 @@
     },
     {
       "scope": [
+        "support.type.object.module.js"
+      ],
+      "settings": {
+        "foreground": "#91acd1"
+      }
+    },
+    {
+      "scope": [
         "keyword.operator.new.ts"
       ],
       "settings": {
@@ -622,6 +635,75 @@
       ],
       "settings": {
         "foreground": "#7fb4ca"
+      }
+    },
+    {
+      "scope": [
+        "punctuation.definition.heading.markdown"
+      ],
+      "settings": {
+        "foreground": "#7fb4ca"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.section.markdown"
+      ],
+      "settings": {
+        "foreground": "#7fb4ca"
+      }
+    },
+    {
+      "scope": [
+        "markup.underline.link.markdown"
+      ],
+      "settings": {
+        "foreground": "#7aa89f"
+      }
+    },
+    {
+      "scope": [
+        "markup.heading.marker.asciidoc"
+      ],
+      "settings": {
+        "foreground": "#7fb4ca"
+      }
+    },
+    {
+      "scope": [
+        "markup.heading.heading-0.asciidoc",
+        "markup.heading.heading-1.asciidoc",
+        "markup.heading.heading-2.asciidoc",
+        "markup.heading.heading-3.asciidoc",
+        "markup.heading.heading-4.asciidoc",
+        "markup.heading.heading-5.asciidoc"
+      ],
+      "settings": {
+        "foreground": "#7fb4ca"
+      }
+    },
+    {
+      "scope": [
+        "markup.list.bullet.asciidoc"
+      ],
+      "settings": {
+        "foreground": "#616884"
+      }
+    },
+    {
+      "scope": [
+        "markup.link.asciidoc"
+      ],
+      "settings": {
+        "foreground": "#7aa89f"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function.asciidoc"
+      ],
+      "settings": {
+        "foreground": "#91acd1"
       }
     }
   ]

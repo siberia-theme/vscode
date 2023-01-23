@@ -4,3 +4,5 @@ Object.assign(exports, require('./js'));
 Object.assign(exports, require('./typescript'));
 Object.assign(exports, require('./html'));
 Object.assign(exports, require('./other'));
+Object.assign(exports, require('./markdown'));
+Object.assign(exports, require('./asciidoc'));

@@ -35,6 +35,8 @@ const {
     js,
     typescript,
     html,
+    markdown,
+    asciidoc,
     other
 } = require('./token');
 const fs = require('fs').promises;
@@ -80,7 +82,9 @@ const tokenColors = [
     ...js(color, syntax),
     ...typescript(color, syntax),
     ...html(color, syntax),
-    ...other(color, syntax)
+    ...other(color, syntax),
+    ...markdown(color, syntax),
+    ...asciidoc(color, syntax)
 ];
 
 const theme = {

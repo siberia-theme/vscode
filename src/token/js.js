@@ -8,5 +8,9 @@ exports.js = function(color, syntax) {
             ],
             settings: { foreground: syntax.storage }
         },
+        {
+            scope: [ 'support.type.object.module.js' ],
+            settings: { foreground: color.blue }
+        }
     ];
 }

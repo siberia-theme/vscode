@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.5.0]
+
+### Added
+
+- Markdown syntax highlight
+- Asciidoc syntax highlight
+- Basic description
+
+### Changed
+
+- Editor hint color
+
 ## [0.4.1]
 
 ### Changed
