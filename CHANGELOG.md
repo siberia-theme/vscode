@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.7.0]
+
+### Changed
+
+- Search term highlight color
+- Marketplace icon
+- Diff editor colors
+- Terminal foreground
+
 ## [0.6.0]
 
 ### Added

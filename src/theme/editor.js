@@ -16,7 +16,7 @@ exports.editor = function (color) {
         // 'editor.wordHighlightBorder': lightness(color.bg, 4),
         'editor.wordHighlightStrongBackground': '#0000',
         // 'editor.wordHighlightStrongBorder': lightness(color.bg, 8),
-        'editor.findMatchBackground': lightness(color.bg, 4),
+        'editor.findMatchBackground': lightness(color.bg, 16),
         'editor.findMatchHighlightBackground': lightness(color.bg, 4),
         'editor.findRangeHighlightBackground': lightness(color.bg, 4),
         // 'editor.findMatchBorder': '',

@@ -4,7 +4,7 @@ exports.terminal = function(color) {
     return {
         'terminal.background': color.bg,
         'terminal.border': color.bg,
-        'terminal.foreground': lightness(color.bg, 32),
+        'terminal.foreground': color.fgBright,
         'terminal.ansiBlack': color.fg,
         'terminal.ansiBrightBlack': color.fg,
         'terminal.ansiBrightBlue': color.blue,
