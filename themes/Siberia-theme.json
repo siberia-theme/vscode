@@ -639,6 +639,14 @@
     },
     {
       "scope": [
+        "entity.name.function.just"
+      ],
+      "settings": {
+        "foreground": "#91acd1"
+      }
+    },
+    {
+      "scope": [
         "punctuation.definition.heading.markdown"
       ],
       "settings": {

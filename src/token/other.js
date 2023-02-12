@@ -31,6 +31,12 @@ exports.other = function(color, syntax) {
         {
             scope: [ 'variable.other.env' ],
             settings: { foreground: color.cyan }
-        }
+        },
+
+        // justfile
+        {
+            scope: ['entity.name.function.just'],
+            settings: { foreground: color.blue }
+        },
     ];
 }

@@ -1,6 +1,12 @@
 # Changelog
 
-## [0.7.0]
+## [0.9.0]
+
+### Added
+
+- Justfile support
+
+## [0.8.0]
 
 ### Changed
 
