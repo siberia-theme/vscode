@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.10.0]
+
+### Added
+
+- CSS support
+
 ## [0.9.0]
 
 ### Added

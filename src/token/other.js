@@ -35,7 +35,16 @@ exports.other = function(color, syntax) {
 
         // justfile
         {
-            scope: ['entity.name.function.just'],
+            scope: [ 'entity.name.function.just' ],
+            settings: { foreground: color.blue }
+        },
+
+        // CSS
+        {
+            scope: [
+                'entity.other.attribute-name.class.css',
+                'entity.other.attribute-name.id.css'
+            ],
             settings: { foreground: color.blue }
         },
     ];

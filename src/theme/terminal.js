@@ -1,19 +1,19 @@
-const { lightness } = require('../base/util');
+const { lightness, saturation } = require('../base/util');
 
 exports.terminal = function(color) {
     return {
         'terminal.background': color.bg,
         'terminal.border': color.bg,
         'terminal.foreground': color.fgBright,
-        'terminal.ansiBlack': color.fg,
-        'terminal.ansiBrightBlack': color.fg,
-        'terminal.ansiBrightBlue': color.blue,
-        'terminal.ansiBrightCyan': color.cyan,
-        'terminal.ansiBrightGreen': color.green,
-        'terminal.ansiBrightMagenta': color.magenta,
-        'terminal.ansiBrightRed': color.red,
-        'terminal.ansiBrightWhite': color.fg,
-        'terminal.ansiBrightYellow': color.yellow,
+        'terminal.ansiBlack': lightness(color.bg, 32),
+        'terminal.ansiBrightBlack': lightness(color.bg, 64),
+        'terminal.ansiBrightBlue': saturation(color.blue, 10),
+        'terminal.ansiBrightCyan': saturation(color.cyan, 10),
+        'terminal.ansiBrightGreen': saturation(color.green, 10),
+        'terminal.ansiBrightMagenta': saturation(color.magenta, 10),
+        'terminal.ansiBrightRed': saturation(color.red, 10),
+        'terminal.ansiBrightYellow': saturation(color.yellow, 10),
+        'terminal.ansiBrightWhite': color.fgBright,
         'terminal.ansiBlue': color.blue,
         'terminal.ansiCyan': color.cyan,
         'terminal.ansiGreen': color.green,

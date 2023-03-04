@@ -149,15 +149,15 @@
     "terminal.background": "#2d313f",
     "terminal.border": "#2d313f",
     "terminal.foreground": "#d0d3dd",
-    "terminal.ansiBlack": "#b8bccd",
-    "terminal.ansiBrightBlack": "#b8bccd",
-    "terminal.ansiBrightBlue": "#91acd1",
-    "terminal.ansiBrightCyan": "#7fb4ca",
-    "terminal.ansiBrightGreen": "#7aa89f",
-    "terminal.ansiBrightMagenta": "#ada0d3",
-    "terminal.ansiBrightRed": "#e98989",
-    "terminal.ansiBrightWhite": "#b8bccd",
-    "terminal.ansiBrightYellow": "#ecbfa1",
+    "terminal.ansiBlack": "#747c9b",
+    "terminal.ansiBrightBlack": "#d0d3dd",
+    "terminal.ansiBrightBlue": "#8aadd9",
+    "terminal.ansiBrightCyan": "#73b6cf",
+    "terminal.ansiBrightGreen": "#6faa9f",
+    "terminal.ansiBrightMagenta": "#ae9edc",
+    "terminal.ansiBrightRed": "#f18585",
+    "terminal.ansiBrightYellow": "#f1be9a",
+    "terminal.ansiBrightWhite": "#d0d3dd",
     "terminal.ansiBlue": "#91acd1",
     "terminal.ansiCyan": "#7fb4ca",
     "terminal.ansiGreen": "#7aa89f",
@@ -449,6 +449,15 @@
     },
     {
       "scope": [
+        "punctuation.section.embedded.begin.php",
+        "punctuation.section.embedded.end.php"
+      ],
+      "settings": {
+        "foreground": "#86e1fc"
+      }
+    },
+    {
+      "scope": [
         "keyword.other.use.php",
         "storage.type.function.php",
         "storage.type.class.php"
@@ -640,6 +649,15 @@
     {
       "scope": [
         "entity.name.function.just"
+      ],
+      "settings": {
+        "foreground": "#91acd1"
+      }
+    },
+    {
+      "scope": [
+        "entity.other.attribute-name.class.css",
+        "entity.other.attribute-name.id.css"
       ],
       "settings": {
         "foreground": "#91acd1"

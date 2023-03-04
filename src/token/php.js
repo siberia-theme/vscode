@@ -6,6 +6,10 @@ exports.php = function(color, syntax) {
         //     settings: { foreground: lightness(color.bg, 16) }
         // },
         {
+            scope: [ 'punctuation.section.embedded.begin.php', 'punctuation.section.embedded.end.php' ],
+            settings: { foreground: color.cyanBright }
+        },
+        {
             scope: [ 'keyword.other.use.php', 'storage.type.function.php', 'storage.type.class.php' ],
             settings: { foreground: color.blue }
         },
