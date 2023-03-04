@@ -5,6 +5,8 @@
 ### Added
 
 - CSS support
+- PHP begin and end colors
+- Bright terminal colors
 
 ## [0.9.0]
 
