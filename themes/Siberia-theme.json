@@ -100,6 +100,8 @@
     "editorWhitespace.foreground": "#353a4a",
     "editorIndentGuide.background": "#353a4a",
     "editorIndentGuide.activeBackground": "#3e4355",
+    "editorInlayHint.background": "#2d313f",
+    "editorInlayHint.foreground": "#616884",
     "editorRuler.foreground": "#353a4a",
     "editor.linkedEditingBackground": "#353a4a",
     "editorCodeLens.foreground": "#4f556b",

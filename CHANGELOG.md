@@ -4,6 +4,12 @@
 
 ### Added
 
+- Inlay hints colors
+
+## [0.10.0]
+
+### Added
+
 - CSS support
 - PHP begin and end colors
 - Bright terminal colors
