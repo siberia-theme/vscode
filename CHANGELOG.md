@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.12.0]
+
+### Changed
+
+- Active selection bg in list
+- "new" keyword for javascript and typescript
+
 ## [0.11.0]
 
 ### Added
