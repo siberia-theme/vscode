@@ -2,14 +2,14 @@ const { lightness } = require('../base/util');
 
 exports.list = function(color) {
     return {
-        'list.activeSelectionBackground': lightness(color.bg, 4),
-        // 'list.activeSelectionForeground': color.fgBright,
+        'list.activeSelectionBackground': lightness(color.blue, -32),
+        'list.activeSelectionForeground': lightness(color.blue, 16),
         // 'list.activeSelectionIconForeground': color.cyan,
         'list.dropBackground': lightness(color.bg, 4),
         'list.focusBackground': lightness(color.bg, 4),
         'list.focusForeground': lightness(color.bg, 48),
         // 'list.focusHighlightForeground': lightness(color.bg, 48),
-        // 'list.focusOutline': null,
+        'list.focusOutline': '#0000',
         // 'list.focusAndSelectionOutline': null,
         'list.highlightForeground': color.cyan,
         'list.hoverBackground': lightness(color.bg, 4),

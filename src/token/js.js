@@ -11,6 +11,10 @@ exports.js = function(color, syntax) {
         {
             scope: [ 'support.type.object.module.js' ],
             settings: { foreground: color.blue }
-        }
+        },
+        {
+            scope: [ 'keyword.operator.new.js' ],
+            settings: { foreground: color.blue }
+        },
     ];
 }

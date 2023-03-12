@@ -32,10 +32,12 @@
     "inputValidation.errorBackground": "#eb9999",
     "inputValidation.errorForeground": "#000000",
     "inputValidation.errorBorder": "#eb9999",
-    "list.activeSelectionBackground": "#353a4a",
+    "list.activeSelectionBackground": "#465a74",
+    "list.activeSelectionForeground": "#ccd7e9",
     "list.dropBackground": "#353a4a",
     "list.focusBackground": "#353a4a",
     "list.focusForeground": "#a1a6bc",
+    "list.focusOutline": "#0000",
     "list.highlightForeground": "#7fb4ca",
     "list.hoverBackground": "#353a4a",
     "list.hoverForeground": "#a1a6bc",
@@ -506,10 +508,18 @@
     },
     {
       "scope": [
+        "keyword.operator.new.js"
+      ],
+      "settings": {
+        "foreground": "#91acd1"
+      }
+    },
+    {
+      "scope": [
         "keyword.operator.new.ts"
       ],
       "settings": {
-        "foreground": "#6682a6"
+        "foreground": "#91acd1"
       }
     },
     {
@@ -531,14 +541,6 @@
       ],
       "settings": {
         "foreground": "#91acd1"
-      }
-    },
-    {
-      "scope": [
-        "keyword.operator.new.ts"
-      ],
-      "settings": {
-        "foreground": "#6682a6"
       }
     },
     {

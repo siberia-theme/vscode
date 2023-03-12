@@ -5,7 +5,7 @@ exports.typescript = function(color, syntax) {
         // ts
         {
             scope: [ 'keyword.operator.new.ts', ],
-            settings: { foreground: lightness(color.blue, -16) }
+            settings: { foreground: color.blue }
         },
         {
             scope: [ 'entity.name.type.alias.ts', 'entity.name.type.enum.ts', 'entity.name.type.ts' ],
@@ -19,10 +19,6 @@ exports.typescript = function(color, syntax) {
                 'storage.type.class.ts'
             ],
             settings: { foreground: syntax.storage }
-        },
-        {
-            scope: [ 'keyword.operator.new.ts', ],
-            settings: { foreground: lightness(color.blue, -16) }
         },
 
         // tsx
