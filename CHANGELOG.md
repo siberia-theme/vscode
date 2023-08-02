@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.13.0]
+
+### Added
+
+- Command center styling
+
+
 ## [0.12.0]
 
 ### Changed

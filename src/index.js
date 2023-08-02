@@ -27,7 +27,8 @@ const {
     diffEditor,
     debug,
     symbolIcons,
-    snippet
+    snippet,
+    commandCenter
 } = require('./theme');
 const {
     general,
@@ -73,7 +74,8 @@ const themeColors = {
     ...diffEditor(color),
     ...debug(color),
     ...symbolIcons(color),
-    ...snippet(color)
+    ...snippet(color),
+    ...commandCenter(color)
 };
 
 const tokenColors = [

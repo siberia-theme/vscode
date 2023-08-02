@@ -26,3 +26,4 @@ Object.assign(exports, require('./diff-editor'));
 Object.assign(exports, require('./debug'));
 Object.assign(exports, require('./symbol-icons'));
 Object.assign(exports, require('./snippet'));
+Object.assign(exports, require('./command-center'));

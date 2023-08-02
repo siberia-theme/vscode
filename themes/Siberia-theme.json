@@ -310,7 +310,13 @@
     "symbolIcon.unitForeground": "#616884",
     "symbolIcon.variableForeground": "#616884",
     "editor.snippetTabstopHighlightBackground": "#353a4a",
-    "editor.snippetFinalTabstopHighlightBackground": "#353a4a"
+    "editor.snippetFinalTabstopHighlightBackground": "#353a4a",
+    "commandCenter.background": "#2d313f",
+    "commandCenter.activeBackground": "#313544",
+    "commandCenter.border": "#2d313f",
+    "commandCenter.activeBorder": "#2d313f",
+    "commandCenter.inactiveBorder": "#2d313f",
+    "commandCenter.foreground": "#b8bccd"
   },
   "semanticHighlighting": true,
   "tokenColors": [
