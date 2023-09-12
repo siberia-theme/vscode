@@ -29,7 +29,7 @@ const syntax = {
     type: color.cyan,
     control: color.blue,
     special: color.orange,
-    storage: color.blue,
+    storage: color.blue
 }
 
 exports.base = color;

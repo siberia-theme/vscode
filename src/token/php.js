@@ -21,5 +21,24 @@ exports.php = function(color, syntax) {
             scope: [ 'meta.class.body.php', 'support.class.php', 'support.function' ],
             settings: { foreground: syntax.class }
         },
+        {
+            scope: [ 'meta.attribute.php' ],
+            settings: { foreground: color.orange }
+        },
+        {
+            scope: [
+                'meta.attribute.php support.other.namespace.php',
+                'meta.attribute.php entity.name.variable.parameter.php',
+                'meta.attribute.php keyword.other.class'
+            ],
+            settings: { foreground: color.fgDimmed }
+        },
+        {
+            scope: [
+                'support.attribute.php',
+                'meta.class.php'
+            ],
+            settings: { foreground: color.fgDimmed }
+        }
     ];
 }

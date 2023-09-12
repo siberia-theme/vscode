@@ -496,6 +496,33 @@
     },
     {
       "scope": [
+        "meta.attribute.php"
+      ],
+      "settings": {
+        "foreground": "#de9e77"
+      }
+    },
+    {
+      "scope": [
+        "meta.attribute.php support.other.namespace.php",
+        "meta.attribute.php entity.name.variable.parameter.php",
+        "meta.attribute.php keyword.other.class"
+      ],
+      "settings": {
+        "foreground": "#616884"
+      }
+    },
+    {
+      "scope": [
+        "support.attribute.php",
+        "meta.class.php"
+      ],
+      "settings": {
+        "foreground": "#616884"
+      }
+    },
+    {
+      "scope": [
         "storage.type.js",
         "storage.type.interface.js",
         "storage.type.class.js"

@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.14.0]
+
+### Added
+- PHP attributes styling
+
 ## [0.13.0]
 
 ### Added
