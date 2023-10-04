@@ -1,10 +1,5 @@
 exports.php = function(color, syntax) {
     return [
-        // php
-        // {
-        //     scope: [ 'punctuation.definition.variable.php' ],
-        //     settings: { foreground: lightness(color.bg, 16) }
-        // },
         {
             scope: [ 'punctuation.section.embedded.begin.php', 'punctuation.section.embedded.end.php' ],
             settings: { foreground: color.cyanBright }
@@ -18,7 +13,12 @@ exports.php = function(color, syntax) {
             settings: { foreground: syntax.type }
         },
         {
-            scope: [ 'meta.class.body.php', 'support.class.php', 'support.function' ],
+            scope: [
+                'meta.class.body.php',
+                'support.class.php',
+                'support.function',
+                'entity.other.alias.php'
+            ],
             settings: { foreground: syntax.class }
         },
         {
@@ -27,18 +27,21 @@ exports.php = function(color, syntax) {
         },
         {
             scope: [
-                'meta.attribute.php support.other.namespace.php',
                 'meta.attribute.php entity.name.variable.parameter.php',
-                'meta.attribute.php keyword.other.class'
+                'meta.attribute.php support.other.namespace.php',
+                'meta.attribute.php keyword.other.class',
+                'meta.attribute.php support.attribute.php',
+                'entity.name.goto-label.php',
+                'meta.class.php',
             ],
             settings: { foreground: color.fgDimmed }
         },
         {
             scope: [
-                'support.attribute.php',
-                'meta.class.php'
+                'support.other.namespace.php',
+                'keyword.other.class.php'
             ],
-            settings: { foreground: color.fgDimmed }
+            settings: { foreground: color.fg }
         }
     ];
 }

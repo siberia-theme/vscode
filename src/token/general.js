@@ -70,5 +70,12 @@ exports.general = function(color, syntax) {
             scope: [ 'meta.decorator' ],
             settings: { foreground: color.yellow }
         },
+        {
+            scope: [
+                'keyword.other.new',
+                'keyword.operator.new'
+            ],
+            settings: { foreground: color.blue }
+        }
     ]
 }

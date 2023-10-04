@@ -459,6 +459,15 @@
     },
     {
       "scope": [
+        "keyword.other.new",
+        "keyword.operator.new"
+      ],
+      "settings": {
+        "foreground": "#91acd1"
+      }
+    },
+    {
+      "scope": [
         "punctuation.section.embedded.begin.php",
         "punctuation.section.embedded.end.php"
       ],
@@ -488,7 +497,8 @@
       "scope": [
         "meta.class.body.php",
         "support.class.php",
-        "support.function"
+        "support.function",
+        "entity.other.alias.php"
       ],
       "settings": {
         "foreground": "#7fb4ca"
@@ -504,9 +514,12 @@
     },
     {
       "scope": [
-        "meta.attribute.php support.other.namespace.php",
         "meta.attribute.php entity.name.variable.parameter.php",
-        "meta.attribute.php keyword.other.class"
+        "meta.attribute.php support.other.namespace.php",
+        "meta.attribute.php keyword.other.class",
+        "meta.attribute.php support.attribute.php",
+        "entity.name.goto-label.php",
+        "meta.class.php"
       ],
       "settings": {
         "foreground": "#616884"
@@ -514,11 +527,11 @@
     },
     {
       "scope": [
-        "support.attribute.php",
-        "meta.class.php"
+        "support.other.namespace.php",
+        "keyword.other.class.php"
       ],
       "settings": {
-        "foreground": "#616884"
+        "foreground": "#b8bccd"
       }
     },
     {
