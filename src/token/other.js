@@ -14,11 +14,11 @@ exports.other = function(color, syntax) {
 
         // yaml
         {
-            scope: [ 'entity.name.tag' ],
-            settings: { foreground: color.cyan }
+            scope: [ 'entity.name.tag.yaml' ],
+            settings: { foreground: color.blue }
         }, {
             scope: [ 'string.unquoted.plain.out.yaml' ],
-            settings: { foreground: color.green }
+            settings: { foreground: color.fg }
         },
 
         // Makefile
@@ -30,7 +30,7 @@ exports.other = function(color, syntax) {
         // env files
         {
             scope: [ 'variable.other.env' ],
-            settings: { foreground: color.cyan }
+            settings: { foreground: color.blue }
         },
 
         // justfile

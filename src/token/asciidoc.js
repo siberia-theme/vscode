@@ -17,7 +17,7 @@ exports.asciidoc = function (color, syntax) {
         },
         {
             scope: [ 'markup.list.bullet.asciidoc' ],
-            settings: { foreground: color.fgDimmed }
+            settings: { foreground: color.fgMuted }
         },
         {
             scope: [ 'markup.link.asciidoc' ],

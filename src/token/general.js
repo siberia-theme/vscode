@@ -42,12 +42,11 @@ exports.general = function(color, syntax) {
             scope: [ 'string.quoted' ],
             settings: { foreground: syntax.string, fontStyle: 'italic' }
         },
-        // {
-        //     scope: [ 'string.regexp', 'storage.modifier.reference' ],
-        //     settings: { foreground: syntax.special }
-        // },
         {
-            scope: [ 'entity.name.type.class', 'entity.other.inherited-class' ],
+            scope: [
+                'entity.name.type.class',
+                'entity.other.inherited-class',
+            ],
             settings: { foreground: syntax.class }
         },
         {
@@ -73,9 +72,10 @@ exports.general = function(color, syntax) {
         {
             scope: [
                 'keyword.other.new',
-                'keyword.operator.new'
+                'keyword.operator.new',
+                'entity.name.tag'
             ],
             settings: { foreground: color.blue }
-        }
+        },
     ]
 }

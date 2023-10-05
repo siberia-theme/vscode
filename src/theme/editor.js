@@ -4,7 +4,7 @@ exports.editor = function (color) {
     return {
         'editor.background': color.bg,
         'editor.foreground': color.fg,
-        'editorLineNumber.foreground': color.fgDimmed,
+        'editorLineNumber.foreground': color.fgMuted,
         'editorLineNumber.activeForeground': color.fgBright,
         'editorCursor.background': color.bg,
         'editorCursor.foreground': lightness(color.bg, 48),
@@ -40,7 +40,7 @@ exports.editor = function (color) {
         'editorIndentGuide.background': lightness(color.bg, 4),
         'editorIndentGuide.activeBackground': lightness(color.bg, 8),
         'editorInlayHint.background': color.bg,
-        'editorInlayHint.foreground': color.fgDimmed,
+        'editorInlayHint.foreground': color.fgMuted,
         // 'editorInlayHint.typeForeground': '',
         // 'editorInlayHint.typeBackground': '',
         // 'editorInlayHint.parameterForeground': '',

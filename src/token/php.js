@@ -16,6 +16,7 @@ exports.php = function(color, syntax) {
             scope: [
                 'meta.class.body.php',
                 'support.class.php',
+                'support.class.builtin.php',
                 'support.function',
                 'entity.other.alias.php'
             ],
@@ -30,18 +31,40 @@ exports.php = function(color, syntax) {
                 'meta.attribute.php entity.name.variable.parameter.php',
                 'meta.attribute.php support.other.namespace.php',
                 'meta.attribute.php keyword.other.class',
-                'meta.attribute.php support.attribute.php',
                 'entity.name.goto-label.php',
                 'meta.class.php',
+                'meta.method-call.php constant.other.php'
             ],
-            settings: { foreground: color.fgDimmed }
+            settings: { foreground: color.fgMuted }
+        },
+        {
+            scope: [
+                'meta.attribute.php support.attribute.php',
+                'meta.other.type.phpdoc.php support.class.php',
+                'meta.other.type.phpdoc.php support.class.builtin.php',
+                'meta.other.type.phpdoc.php keyword.other.type.php'
+            ],
+            settings: { foreground: color.fgSubtle }
         },
         {
             scope: [
                 'support.other.namespace.php',
-                'keyword.other.class.php'
+                'keyword.other.class.php',
+                'storage.type.php'
             ],
             settings: { foreground: color.fg }
+        },
+        {
+            scope: [ 'entity.name.function.php' ],
+            settings: { foreground: syntax.method }
+        },
+        {
+            scope: [
+                'meta.method-call.php constant.other.php',
+                'meta.attribute.php entity.name.variable.parameter.php',
+                'entity.name.goto-label.php',
+            ],
+            settings: { fontStyle: 'italic' }
         }
     ];
 }

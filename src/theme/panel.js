@@ -7,7 +7,7 @@ exports.panel = function(color) {
         'panel.dropBorder': lightness(color.bg, -2),
         'panelTitle.activeBorder': color.bg,
         'panelTitle.activeForeground': color.fg,
-        'panelTitle.inactiveForeground': color.fgDimmed,
+        'panelTitle.inactiveForeground': color.fgMuted,
         // 'panelInput.border': '',
         // 'panelSection.border': '',
         // 'panelSection.dropBackground': '',

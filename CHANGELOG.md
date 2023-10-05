@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.16.0]
+
+### Updated
+- Increased saturation for cyan and green
+- Improved colors for php syntax
+
 ## [0.15.0]
 
 ### Updated

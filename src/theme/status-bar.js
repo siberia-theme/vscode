@@ -3,12 +3,12 @@ const { lightness } = require('../base/util');
 exports.statusBar = function(color) {
     return {
         'statusBar.background': lightness(color.bg, -2),
-        'statusBar.foreground': color.fgDimmed,
+        'statusBar.foreground': color.fgMuted,
         'statusBar.border': lightness(color.bg, -2),
         'statusBar.debuggingBackground': lightness(color.bg, -2),
-        'statusBar.debuggingForeground': color.fgDimmed,
+        'statusBar.debuggingForeground': color.fgMuted,
         'statusBar.debuggingBorder': '#00000000',
-        'statusBar.noFolderForeground': color.fgDimmed,
+        'statusBar.noFolderForeground': color.fgMuted,
         'statusBar.noFolderBackground': lightness(color.bg, -2),
         'statusBar.noFolderBorder': lightness(color.bg, -2),
         'statusBarItem.activeBackground': color.bg,
