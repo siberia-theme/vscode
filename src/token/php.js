@@ -1,8 +1,16 @@
 exports.php = function(color, syntax) {
     return [
         {
+            scope: [ 'punctuation.definition.variable.php' ],
+            settings: { foreground: color.fgMuted }
+        },
+        {
+            scope: [ 'keyword.operator.type' ],
+            settings: { foreground: color.special }
+        },
+        {
             scope: [ 'punctuation.section.embedded.begin.php', 'punctuation.section.embedded.end.php' ],
-            settings: { foreground: color.cyanBright }
+            settings: { foreground: color.blueDark }
         },
         {
             scope: [ 'keyword.other.use.php', 'storage.type.function.php', 'storage.type.class.php' ],
@@ -18,13 +26,22 @@ exports.php = function(color, syntax) {
                 'support.class.php',
                 'support.class.builtin.php',
                 'support.function',
-                'entity.other.alias.php'
+                'entity.other.alias.php',
+                'storage.type.php'
             ],
             settings: { foreground: syntax.class }
         },
         {
             scope: [ 'meta.attribute.php' ],
             settings: { foreground: color.orange }
+        },
+        {
+            scope: [ 'keyword.operator.nullable-type.php' ],
+            settings: { foreground: color.cyanBright }
+        },
+        {
+            scope: [ 'string.regexp.single-quoted.php', 'string.regexp.double-quoted.php' ],
+            settings: { foreground: color.greenBright }
         },
         {
             scope: [
@@ -50,7 +67,6 @@ exports.php = function(color, syntax) {
             scope: [
                 'support.other.namespace.php',
                 'keyword.other.class.php',
-                'storage.type.php'
             ],
             settings: { foreground: color.fg }
         },

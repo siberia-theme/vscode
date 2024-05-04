@@ -27,8 +27,12 @@ exports.general = function(color, syntax) {
             settings: { foreground: syntax.storage }
         },
         {
-            scope: [ 'punctuation', 'keyword.operator', 'meta.brace' ],
-            settings: { foreground: lightness(color.fg, -32) }
+            scope: [ 'punctuation', 'meta.brace', 'keyword.operator' ],
+            settings: { foreground: color.fgSubtle }
+        },
+        {
+            scope: ['keyword.operator.ternary', 'keyword.operator.null-coalescing'],
+            settings: { foreground: color.special }
         },
         {
             scope: [ 'variable' ],

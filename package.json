@@ -22,7 +22,8 @@
   ],
   "scripts": {
     "watch": "nodemon --watch src src/index.js",
-    "build": "node src/index.js"
+    "build": "node src/index.js",
+    "palette": "nodemon --watch src src/palette.js"
   },
   "contributes": {
     "themes": [

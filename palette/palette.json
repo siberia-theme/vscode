@@ -1,0 +1,22 @@
+{
+  "color": {
+    "bg": "#2d313f",
+    "fg": "#a1a6bc",
+    "red": "#e98989",
+    "green": "#6dab9f",
+    "orange": "#de9e77",
+    "yellow": "#ecbfa1",
+    "blue": "#8bacd8",
+    "magenta": "#ada0d3",
+    "cyan": "#70b6d0",
+    "fgBright": "#d0d2dd",
+    "fgSubtle": "#747c9b",
+    "fgMuted": "#616884",
+    "greenBright": "#7cc2b3",
+    "greenDark": "#507f76",
+    "blueBright": "#a9c2e2",
+    "blueDark": "#6081b0",
+    "cyanBright": "#b3dff1",
+    "special": "#de9e77"
+  }
+}

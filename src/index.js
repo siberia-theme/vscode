@@ -38,7 +38,8 @@ const {
     html,
     markdown,
     asciidoc,
-    other
+    other,
+    twig
 } = require('./token');
 const fs = require('fs').promises;
 
@@ -86,7 +87,8 @@ const tokenColors = [
     ...html(color, syntax),
     ...other(color, syntax),
     ...markdown(color, syntax),
-    ...asciidoc(color, syntax)
+    ...asciidoc(color, syntax),
+    ...twig(color, syntax)
 ];
 
 const theme = {
