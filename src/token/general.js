@@ -27,7 +27,18 @@ exports.general = function(color, syntax) {
             settings: { foreground: syntax.storage }
         },
         {
-            scope: [ 'punctuation', 'meta.brace', 'keyword.operator' ],
+            scope: [
+                'punctuation.definition.parameters',
+                'punctuation.definition.arguments',
+                'punctuation.definition.begin',
+                'punctuation.definition.end',
+                'punctuation.terminator',
+                'punctuation.section',
+                'punctuation.definition.storage-type',
+                'meta.brace',
+                'keyword.operator',
+                'keyword.operator.type.annotation'
+            ],
             settings: { foreground: color.fgSubtle }
         },
         {
@@ -80,6 +91,10 @@ exports.general = function(color, syntax) {
                 'entity.name.tag'
             ],
             settings: { foreground: color.blue }
+        },
+        {
+            scope: [ 'string.regexp' ],
+            settings: { foreground: color.greenDark }
         },
     ]
 }

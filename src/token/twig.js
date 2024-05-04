@@ -9,7 +9,9 @@ exports.twig = function (color, syntax) {
             settigns: { foreground: color.blueDark }
         },
         {
-            scope: [ 'keyword.operator.logical.twig', 'keyword.operator.comparison.twig' ],
+            scope: [
+                'keyword.operator.logical.twig',
+            ],
             settings: { foreground: color.special }
         },
         {

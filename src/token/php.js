@@ -25,7 +25,6 @@ exports.php = function(color, syntax) {
                 'meta.class.body.php',
                 'support.class.php',
                 'support.class.builtin.php',
-                'support.function',
                 'entity.other.alias.php',
                 'storage.type.php'
             ],
@@ -38,10 +37,6 @@ exports.php = function(color, syntax) {
         {
             scope: [ 'keyword.operator.nullable-type.php' ],
             settings: { foreground: color.cyanBright }
-        },
-        {
-            scope: [ 'string.regexp.single-quoted.php', 'string.regexp.double-quoted.php' ],
-            settings: { foreground: color.greenBright }
         },
         {
             scope: [
