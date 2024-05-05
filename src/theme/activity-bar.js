@@ -11,6 +11,6 @@ exports.activityBar = function(color) {
         'activityBarBadge.foreground': lightness(color.cyan, -32),
         'activityBar.activeBorder': color.cyan,
         'activityBar.activeBackground': color.bg,
-        'activityBar.activeFocusBorder': color.red,
+        'activityBar.activeFocusBorder': color.cyanBright,
     }
 }

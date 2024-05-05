@@ -1,9 +1,9 @@
 const { lightness, alpha } = require('../base/util');
 
-exports.diffEditor = function (color) {
+exports.diffEditor = function (color, syntax) {
     return {
-        'diffEditor.insertedLineBackground': '#364152',
-        'diffEditor.insertedTextBackground': lightness('#364152', 4),
+        'diffEditor.insertedLineBackground': syntax.insertedLine,
+        'diffEditor.insertedTextBackground': lightness(syntax.insertedLine, 4),
         // 'diffEditor.removedTextBorder': '',
         'diffEditor.border': lightness(color.bg, -2),
         'diffEditor.diagonalFill': lightness(color.bg, 4),

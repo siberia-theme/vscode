@@ -63,7 +63,7 @@
     "activityBarBadge.foreground": "#39606f",
     "activityBar.activeBorder": "#70b6d0",
     "activityBar.activeBackground": "#2d313f",
-    "activityBar.activeFocusBorder": "#e98989",
+    "activityBar.activeFocusBorder": "#b3dff1",
     "editorGroup.border": "#292d3a",
     "editorGroupHeader.tabsBackground": "#292d3a",
     "editorGroupHeader.tabsBorder": "#2d313f",
@@ -513,7 +513,7 @@
         "punctuation.section.embedded.end.php"
       ],
       "settings": {
-        "foreground": "#6081b0"
+        "foreground": "#688cbe"
       }
     },
     {
@@ -858,15 +858,7 @@
         "punctuation.section.tag.twig"
       ],
       "settings": {
-        "foreground": "#6081b0"
-      }
-    },
-    {
-      "scope": [
-        "keyword.operator.other.twig"
-      ],
-      "settigns": {
-        "foreground": "#6081b0"
+        "foreground": "#688cbe"
       }
     },
     {
@@ -880,6 +872,14 @@
     {
       "scope": [
         "meta.function-call.other.twig"
+      ],
+      "settings": {
+        "foreground": "#ced2e4"
+      }
+    },
+    {
+      "scope": [
+        "meta.function-call.twig"
       ],
       "settings": {
         "foreground": "#ced2e4"

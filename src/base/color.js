@@ -23,7 +23,7 @@ const color = {
     greenDark: lightness(hue(baseColor.green, 2), -16),
 
     blueBright: lightness(hue(baseColor.blue, -2), 8),
-    blueDark: lightness(hue(baseColor.blue, 2), -16),
+    blueDark: lightness(hue(baseColor.blue, 2), -12),
 
     cyanBright: lightness(hue(baseColor.cyan, -2), 16),
     cyanDark: lightness(hue(baseColor.cyan, 4), -12),
@@ -51,7 +51,9 @@ const syntax = {
     type: color.cyan,
     control: color.blue,
     special: color.orange,
-    storage: color.blue
+    storage: color.blue,
+
+    insertedLine: '#364152'
 }
 
 exports.base = color;

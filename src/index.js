@@ -72,7 +72,7 @@ const themeColors = {
     ...quickPicker(color),
     ...notification(color),
     ...git(color),
-    ...diffEditor(color),
+    ...diffEditor(color, syntax),
     ...debug(color),
     ...symbolIcons(color),
     ...snippet(color),

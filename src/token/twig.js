@@ -5,10 +5,6 @@ exports.twig = function (color, syntax) {
             settings: { foreground: color.blueDark }
         },
         {
-            scope: [ 'keyword.operator.other.twig' ],
-            settigns: { foreground: color.blueDark }
-        },
-        {
             scope: [
                 'keyword.operator.logical.twig',
             ],
@@ -17,6 +13,10 @@ exports.twig = function (color, syntax) {
         {
             scope: [ 'meta.function-call.other.twig' ],
             settings: { foreground: color.fgBright }
-        }
+        },
+        {
+            scope: [ 'meta.function-call.twig' ],
+            settings: { foreground: color.fgBright }
+        },
     ];
 }
