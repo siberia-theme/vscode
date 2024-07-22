@@ -1,7 +1,8 @@
 const { lightness, saturation, hue } = require('./util');
 
 const baseColor = {
-    bg: '#2d313f',
+    // bg: '#2d313f',
+    bg: '#292d39',
     fg: saturation(lightness('#2d313f', 48), 16),
     red: '#e98989',
     green: '#6dab9f',
