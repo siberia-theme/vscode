@@ -1,12 +1,10 @@
-const { lightness } = require('../base/util');
-
-exports.commandCenter = function(color) {
+exports.commandCenter = function(palette) {
     return {
-        'commandCenter.background': color.bg,
-        'commandCenter.activeBackground': lightness(color.bg, 2),
-        'commandCenter.border': color.bg,
-        'commandCenter.activeBorder': color.bg,
-        'commandCenter.inactiveBorder': color.bg,
-        'commandCenter.foreground': color.fg
+        'commandCenter.background': palette.bg,
+        'commandCenter.activeBackground': palette.base3,
+        'commandCenter.border': palette.bg,
+        'commandCenter.activeBorder': palette.bg,
+        'commandCenter.inactiveBorder': palette.bg,
+        'commandCenter.foreground': palette.fg
     }
 }

@@ -1,7 +1,7 @@
 {
   "color": {
     "bg": "#292d39",
-    "fg": "#9da5ca",
+    "fg": "#97a6d7",
     "red": "#e98989",
     "green": "#6dab9f",
     "orange": "#de9e77",
@@ -9,19 +9,21 @@
     "blue": "#8bacd8",
     "magenta": "#ada0d3",
     "cyan": "#70b6d0",
-    "fgBright": "#ced2e4",
-    "fgSubtle": "#747b9b",
-    "fgMuted": "#616885",
+    "fgBright": "#c9d2f4",
+    "fgSubtle": "#747c9b",
+    "fgMuted": "#616983",
     "greenBright": "#7cc2b3",
     "greenDark": "#507f76",
-    "blueBright": "#a9c2e2",
-    "blueDark": "#688cbe",
-    "cyanBright": "#b3dff1",
-    "cyanDark": "#5b94ad",
-    "magentaDark": "#ac91cd",
-    "redDark": "#e97a63",
-    "yellowBright": "#f3d9c7",
-    "yellowDark": "#dc9969",
-    "special": "#de9e77"
+    "blueBright": "#9ec3ee",
+    "blueDark": "#738bb0",
+    "cyanBright": "#bddeec",
+    "cyanDark": "#5f94ac",
+    "magentaDark": "#aa94c4",
+    "redDark": "#d78375",
+    "yellowBright": "#f3dac8",
+    "yellowDark": "#d19c7c",
+    "special": "#de9e77",
+    "bgDark": "#252934",
+    "bgDarker": "#21252f"
   }
 }

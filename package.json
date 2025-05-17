@@ -1,48 +1,53 @@
 {
-  "name": "siberia-theme",
-  "displayName": "Siberia",
-  "repository": {
-    "url": "https://github.com/siberia-theme/vscode.git"
-  },
-  "publisher": "pavel-shatalov",
-  "description": "",
-  "icon": "siberia.png",
-  "version": "0.20.0",
-  "engines": {
-    "vscode": "^1.73.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "keywords": [
-    "theme",
-    "dark",
-    "minimal",
-    "siberia"
-  ],
-  "scripts": {
-    "watch": "nodemon --watch src src/index.js",
-    "build": "node src/index.js",
-    "palette": "nodemon --watch src src/palette.js"
-  },
-  "contributes": {
-    "themes": [
-      {
-        "label": "Siberia Dark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Siberia-theme.json"
-      }
+    "name": "siberia-theme",
+    "displayName": "Siberia",
+    "repository": {
+        "url": "https://github.com/siberia-theme/vscode.git"
+    },
+    "publisher": "pavel-shatalov",
+    "description": "",
+    "icon": "siberia.png",
+    "version": "0.20.0",
+    "engines": {
+        "vscode": "^1.73.0"
+    },
+    "categories": [
+        "Themes"
     ],
-    "iconThemes": [
-      {
-        "label": "Siberia Minimal",
-        "id": "Siberia Minimal",
-        "path": "./icon-themes/siberia-minimal.json"
-      }
-    ]
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.20",
-    "hsluv": "^1.0.0"
-  }
+    "keywords": [
+        "theme",
+        "dark",
+        "minimal",
+        "siberia"
+    ],
+    "scripts": {
+        "watch": "nodemon --watch src src/night.js",
+        "build": "node src/index.js",
+        "palette": "nodemon --watch src src/palette.js"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Siberia Night",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Siberia-Night-theme.json"
+            },
+            {
+                "label": "Siberia Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Siberia-theme.json"
+            }
+        ],
+        "iconThemes": [
+            {
+                "label": "Siberia Minimal",
+                "id": "Siberia Minimal",
+                "path": "./icon-themes/siberia-minimal.json"
+            }
+        ]
+    },
+    "devDependencies": {
+        "hsluv": "^1.0.0",
+        "nodemon": "^2.0.20"
+    }
 }

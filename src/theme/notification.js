@@ -1,13 +1,11 @@
-const { lightness } = require('../base/util');
-
-exports.notification = function(color) {
+exports.notification = function(palette) {
     return {
         'notificationCenter.border': '#00000000',
         // 'notificationCenterHeader.foreground': '',
-        'notificationCenterHeader.background': lightness(color.bg, -2),
+        'notificationCenterHeader.background': palette.base1,
         'notificationToast.border': '#00000000',
         // 'notifications.foreground': '',
-        'notifications.background': lightness(color.bg, -2),
+        'notifications.background': palette.base1,
         'notifications.border': '#00000000',
         // 'notificationLink.foreground': '',
         // 'notificationsErrorIcon.foreground': '',

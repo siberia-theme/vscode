@@ -1,16 +1,16 @@
-exports.markdown = function (color, syntax) {
+exports.markdown = function (palette) {
     return [
         {
             scope: [ 'punctuation.definition.heading.markdown' ],
-            settings: { foreground: color.cyan }
+            settings: { foreground: palette.cyan }
         },
         {
             scope: [ 'entity.name.section.markdown' ],
-            settings: { foreground: color.cyan }
+            settings: { foreground: palette.cyan }
         },
         {
             scope: [ 'markup.underline.link.markdown' ],
-            settings: { foreground: syntax.string }
+            settings: { foreground: palette.string }
         }
     ]
 }

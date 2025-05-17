@@ -1,11 +1,9 @@
-const { lightness } = require('../base/util');
-
-exports.titleBar = function(color) {
+exports.titleBar = function(palette) {
     return {
-        'titleBar.activeBackground': lightness(color.bg, -2),
-        'titleBar.activeForeground': color.fg,
-        'titleBar.inactiveBackground': lightness(color.bg, -2),
-        'titleBar.inactiveForeground': color.fg,
-        'titleBar.border': lightness(color.bg, -2),
+        'titleBar.activeBackground': palette.base1,
+        'titleBar.activeForeground': palette.fg,
+        'titleBar.inactiveBackground': palette.base1,
+        'titleBar.inactiveForeground': palette.fg,
+        'titleBar.border': palette.base1,
     }
 }

@@ -1,42 +1,42 @@
-exports.other = function(color, syntax) {
+exports.other = function(palette) {
     return [
         // Dockerfile
         {
             scope: [ 'keyword.other.special-method.dockerfile' ],
-            settings: { foreground: color.cyan }
+            settings: { foreground: palette.cyan }
         },
 
         // ini
         {
             scope: [ 'entity.name.section.group-title.ini' ],
-            settings: { foreground: color.cyan }
+            settings: { foreground: palette.cyan }
         },
 
         // yaml
         {
             scope: [ 'entity.name.tag.yaml' ],
-            settings: { foreground: color.blue }
+            settings: { foreground: palette.blue }
         }, {
             scope: [ 'string.unquoted.plain.out.yaml' ],
-            settings: { foreground: color.fg }
+            settings: { foreground: palette.fg }
         },
 
         // Makefile
         {
             scope: [ 'entity.name.function.target.makefile' ],
-            settings: { foreground: color.cyan }
+            settings: { foreground: palette.cyan }
         },
 
         // env files
         {
             scope: [ 'variable.other.env' ],
-            settings: { foreground: color.blue }
+            settings: { foreground: palette.blue }
         },
 
         // justfile
         {
             scope: [ 'entity.name.function.just' ],
-            settings: { foreground: color.blue }
+            settings: { foreground: palette.blue }
         },
 
         // CSS
@@ -45,7 +45,7 @@ exports.other = function(color, syntax) {
                 'entity.other.attribute-name.class.css',
                 'entity.other.attribute-name.id.css'
             ],
-            settings: { foreground: color.blue }
+            settings: { foreground: palette.blue }
         },
     ];
 }

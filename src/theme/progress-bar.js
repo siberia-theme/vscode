@@ -1,7 +1,5 @@
-const { lightness } = require('../base/util');
-
-exports.progressBar = function(color) {
+exports.progressBar = function(palette) {
     return {
-        'progressBar.background': color.cyan,
+        'progressBar.background': palette.cyan,
     }
 }

@@ -1,10 +1,8 @@
-const { lightness } = require('../base/util');
-
-exports.dropdown = function(color) {
+exports.dropdown = function(palette) {
     return {
-        'dropdown.background': lightness(color.bg, 4),
-        'dropdown.listBackground': lightness(color.bg, 4),
-        'dropdown.border': lightness(color.bg, 4),
-        'dropdown.foreground': color.fg,
+        'dropdown.background': palette.base4,
+        'dropdown.listBackground': palette.base4,
+        'dropdown.border': palette.base4,
+        'dropdown.foreground': palette.fg,
     }
 }

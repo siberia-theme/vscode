@@ -1,8 +1,6 @@
-const { lightness } = require('../base/util');
-
-exports.snippet = function (color) {
+exports.snippet = function (palette) {
     return {
-        'editor.snippetTabstopHighlightBackground': lightness(color.bg, 4),
-        'editor.snippetFinalTabstopHighlightBackground': lightness(color.bg, 4),
+        'editor.snippetTabstopHighlightBackground': palette.base4,
+        'editor.snippetFinalTabstopHighlightBackground': palette.base4,
     }
 }

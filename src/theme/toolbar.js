@@ -1,9 +1,7 @@
-const { lightness } = require('../base/util');
-
-exports.toolbar = function(color) {
+exports.toolbar = function(palette) {
     return {
-        'toolbar.hoverBackground': color.bg,
-        'toolbar.hoverOutline': color.bg,
-        'toolbar.activeBackground': color.bg,
+        'toolbar.hoverBackground': palette.bg,
+        'toolbar.hoverOutline': palette.bg,
+        'toolbar.activeBackground': palette.bg,
     }
 }

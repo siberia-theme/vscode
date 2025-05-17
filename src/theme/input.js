@@ -1,18 +1,18 @@
 const { lightness } = require('../base/util');
 
-exports.input = function(color) {
+exports.input = function(palette) {
     return {
-        'input.background': lightness(color.bg, 4),
-        'input.border': lightness(color.bg, 4),
-        'input.foreground': color.fg,
-        'input.placeholderForeground': lightness(color.fg, -32),
-        'inputOption.activeBackground': lightness(color.bg, 8),
+        'input.background': palette.base4,
+        'input.border': palette.base4,
+        'input.foreground': palette.fg,
+        'input.placeholderForeground': lightness(palette.fg, -32),
+        'inputOption.activeBackground': lightness(palette.bg, 8),
         'inputOption.activeBorder': '#00000000',
-        'inputOption.activeForeground': color.red,
-        'inputOption.hoverBackground': lightness(color.bg, 8),
-        'inputValidation.errorBackground': lightness(color.red, 4),
-        'inputValidation.errorForeground': lightness(color.red, -96),
-        'inputValidation.errorBorder': lightness(color.red, 4),
+        'inputOption.activeForeground': palette.red,
+        'inputOption.hoverBackground': lightness(palette.bg, 8),
+        'inputValidation.errorBackground': lightness(palette.red, 4),
+        'inputValidation.errorForeground': lightness(palette.red, -96),
+        'inputValidation.errorBorder': lightness(palette.red, 4),
         // 'inputValidation.infoBackground': '',
         // 'inputValidation.infoForeground': '',
         // 'inputValidation.infoBorder': '',

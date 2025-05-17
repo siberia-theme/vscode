@@ -1,13 +1,13 @@
 const { lightness } = require('../base/util');
 
-exports.text = function(color) {
+exports.text = function(palette) {
     return {
-        'textBlockQuote.background': lightness(color.bg, 2),
-        'textBlockQuote.border': color.cyan,
-        'textCodeBlock.background': lightness(color.bg, 4),
-        'textLink.activeForeground': lightness(color.fg, 16),
-        'textLink.foreground': lightness(color.fg, 4),
-        'textPreformat.foreground': lightness(color.fg, 4),
+        'textBlockQuote.background': palette.base3,
+        'textBlockQuote.border': palette.cyan,
+        'textCodeBlock.background': palette.base4,
+        'textLink.activeForeground': lightness(palette.fg, 16),
+        'textLink.foreground': lightness(palette.fg, 4),
+        'textPreformat.foreground': lightness(palette.fg, 4),
         // 'textSeparator.foreground': '',
     }
 }

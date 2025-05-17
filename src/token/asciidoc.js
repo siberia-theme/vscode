@@ -1,8 +1,8 @@
-exports.asciidoc = function (color, syntax) {
+exports.asciidoc = function (palette) {
     return [
         {
             scope: [ 'markup.heading.marker.asciidoc' ],
-            settings: { foreground: color.cyan }
+            settings: { foreground: palette.cyan }
         },
         {
             scope: [
@@ -13,19 +13,19 @@ exports.asciidoc = function (color, syntax) {
                 'markup.heading.heading-4.asciidoc',
                 'markup.heading.heading-5.asciidoc',
             ],
-            settings: { foreground: color.cyan }
+            settings: { foreground: palette.cyan }
         },
         {
             scope: [ 'markup.list.bullet.asciidoc' ],
-            settings: { foreground: color.fgMuted }
+            settings: { foreground: palette.fgMuted }
         },
         {
             scope: [ 'markup.link.asciidoc' ],
-            settings: { foreground: syntax.string }
+            settings: { foreground: palette.string }
         },
         {
             scope: [ 'entity.name.function.asciidoc' ],
-            settings: { foreground: color.blue }
+            settings: { foreground: palette.blue }
         }
     ];
 }

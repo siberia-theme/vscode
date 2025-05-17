@@ -1,10 +1,10 @@
 const { lightness } = require('../base/util');
 
-exports.general = function(color, syntax) {
+exports.general = function(palette) {
     return [
         {
             scope: [ 'comment', 'string.comment', 'comment.block', 'punctuation.definition.comment' ],
-            settings: { foreground: syntax.comment },
+            settings: { foreground: palette.comment },
         },
         {
             scope: [ 'comment' ],
@@ -12,19 +12,19 @@ exports.general = function(color, syntax) {
         },
         {
             scope: [ 'constant.numeric' ],
-            settings: { foreground: syntax.number },
+            settings: { foreground: palette.number },
         },
         {
             scope: [ 'constant.language' ],
-            settings: { foreground: syntax.languageConstant }
+            settings: { foreground: palette.languageConstant }
         },
         {
             scope: [ 'constant.other' ],
-            settings: { foreground: syntax.constant },
+            settings: { foreground: palette.constant },
         },
         {
             scope: [ 'storage.modifier' ],
-            settings: { foreground: syntax.storage }
+            settings: { foreground: palette.storage }
         },
         {
             scope: [
@@ -39,50 +39,50 @@ exports.general = function(color, syntax) {
                 'keyword.operator',
                 'keyword.operator.type.annotation'
             ],
-            settings: { foreground: color.fgSubtle }
+            settings: { foreground: palette.fgSubtle }
         },
         {
             scope: ['keyword.operator.ternary', 'keyword.operator.null-coalescing'],
-            settings: { foreground: color.special }
+            settings: { foreground: palette.special }
         },
         {
             scope: [ 'variable' ],
-            settings: { foreground: syntax.variable }
+            settings: { foreground: palette.variable }
         },
         {
             scope: [ 'variable.other.property' ],
-            settings: { foreground: syntax.property }
+            settings: { foreground: palette.property }
         },
         {
             scope: [ 'string.quoted' ],
-            settings: { foreground: syntax.string, fontStyle: 'italic' }
+            settings: { foreground: palette.string, fontStyle: 'italic' }
         },
         {
             scope: [
                 'entity.name.type.class',
                 'entity.other.inherited-class',
             ],
-            settings: { foreground: syntax.class }
+            settings: { foreground: palette.class }
         },
         {
             scope: [ 'meta.method-call', 'support.function' ],
-            settings: { foreground: syntax.method }
+            settings: { foreground: palette.method }
         },
         {
             scope: [ 'keyword.other.type', 'support.type.primitive' ],
-            settings: { foreground: syntax.type }
+            settings: { foreground: palette.type }
         },
         {
             scope: [ 'keyword.control' ],
-            settings: { foreground: syntax.control }
+            settings: { foreground: palette.control }
         },
         {
             scope: [ 'keyword.operator.logical' ],
-            settings: { foreground: color.special }
+            settings: { foreground: palette.special }
         },
         {
             scope: [ 'meta.decorator' ],
-            settings: { foreground: color.yellow }
+            settings: { foreground: palette.yellow }
         },
         {
             scope: [
@@ -90,11 +90,11 @@ exports.general = function(color, syntax) {
                 'keyword.operator.new',
                 'entity.name.tag'
             ],
-            settings: { foreground: color.blue }
+            settings: { foreground: palette.blue }
         },
         {
             scope: [ 'string.regexp' ],
-            settings: { foreground: color.greenDark }
+            settings: { foreground: palette.greenDark }
         },
     ]
 }

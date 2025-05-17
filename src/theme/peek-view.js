@@ -1,20 +1,20 @@
 const { lightness } = require('../base/util');
 
-exports.peekView = function (color) {
+exports.peekView = function (palette) {
     return {
-        'peekView.border': lightness(color.bg, -2),
-        'peekViewEditor.background': lightness(color.bg, -2),
-        'peekViewEditorGutter.background': lightness(color.bg, -2),
-        'peekViewEditor.matchHighlightBackground': lightness(color.bg, 2),
-        'peekViewEditor.matchHighlightBorder': lightness(color.bg, 2),
-        'peekViewResult.background': lightness(color.bg, -2),
-        'peekViewResult.fileForeground': color.fg,
-        'peekViewResult.lineForeground': lightness(color.bg, 32),
-        'peekViewResult.matchHighlightBackground': lightness(color.bg, 2),
-        'peekViewResult.selectionBackground': lightness(color.bg, 2),
-        'peekViewResult.selectionForeground': lightness(color.bg, 32),
-        'peekViewTitle.background': lightness(color.bg, -2),
-        'peekViewTitleDescription.foreground': lightness(color.bg, 32),
-        'peekViewTitleLabel.foreground': lightness(color.bg, 48),
+        'peekView.border': palette.base1,
+        'peekViewEditor.background': palette.base1,
+        'peekViewEditorGutter.background': palette.base1,
+        'peekViewEditor.matchHighlightBackground': palette.base3,
+        'peekViewEditor.matchHighlightBorder': palette.base3,
+        'peekViewResult.background': palette.base1,
+        'peekViewResult.fileForeground': palette.fg,
+        'peekViewResult.lineForeground': lightness(palette.bg, 32),
+        'peekViewResult.matchHighlightBackground': palette.base3,
+        'peekViewResult.selectionBackground': palette.base3,
+        'peekViewResult.selectionForeground': lightness(palette.bg, 32),
+        'peekViewTitle.background': palette.base1,
+        'peekViewTitleDescription.foreground': lightness(palette.bg, 32),
+        'peekViewTitleLabel.foreground': lightness(palette.bg, 48),
     }
 }

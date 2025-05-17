@@ -1,9 +1,7 @@
-const { lightness } = require('../base/util');
-
-exports.checkbox = function(color) {
+exports.checkbox = function(palette) {
     return {
-        'checkbox.background': lightness(color.bg, 4),
-        'checkbox.foreground': color.fg,
-        'checkbox.border': lightness(color.bg, 4),
+        'checkbox.background': palette.base4,
+        'checkbox.foreground': palette.fg,
+        'checkbox.border': palette.base4,
     }
 }

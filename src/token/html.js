@@ -1,8 +1,8 @@
-exports.html = function(color, syntax) {
+exports.html = function(palette) {
     return [
         {
             scope: [ 'string.quoted.double.html', 'string.quoted.single.html' ],
-            settings: { fontStyle: '' }
+            settings: { fontStyle: '', foreground: palette.fgBright }
         },
     ];
 }

@@ -1,27 +1,27 @@
 const { lightness } = require('../base/util');
 
-exports.editorWidget = function(color) {
+exports.editorWidget = function(palette) {
     return {
-        'editorWidget.foreground': color.fg,
-        'editorWidget.background': lightness(color.bg, -2),
-        'editorWidget.border': lightness(color.bg, -2),
-        'editorWidget.resizeBorder': lightness(color.bg, 16),
+        'editorWidget.foreground': palette.fg,
+        'editorWidget.background': palette.base1,
+        'editorWidget.border': palette.base1,
+        'editorWidget.resizeBorder': lightness(palette.bg, 16),
 
-        'editorSuggestWidget.background': lightness(color.bg, -2),
-        'editorSuggestWidget.border': lightness(color.bg, -2),
-        'editorSuggestWidget.foreground': lightness(color.bg, 32),
-        'editorSuggestWidget.focusHighlightForeground': lightness(color.bg, 48),
-        'editorSuggestWidget.highlightForeground': lightness(color.bg, 48),
-        'editorSuggestWidget.selectedBackground': color.bg,
-        'editorSuggestWidget.selectedForeground': lightness(color.bg, 48),
-        'editorSuggestWidget.selectedIconForeground': color.cyan,
-        'editorSuggestWidgetStatus.foreground': lightness(color.bg, 48),
+        'editorSuggestWidget.background': palette.base1,
+        'editorSuggestWidget.border': palette.base1,
+        'editorSuggestWidget.foreground': lightness(palette.bg, 32),
+        'editorSuggestWidget.focusHighlightForeground': lightness(palette.bg, 48),
+        'editorSuggestWidget.highlightForeground': lightness(palette.bg, 48),
+        'editorSuggestWidget.selectedBackground': palette.bg,
+        'editorSuggestWidget.selectedForeground': lightness(palette.bg, 48),
+        'editorSuggestWidget.selectedIconForeground': palette.cyan,
+        'editorSuggestWidgetStatus.foreground': lightness(palette.bg, 48),
 
-        'editorHoverWidget.foreground': lightness(color.bg, 32),
-        'editorHoverWidget.background': lightness(color.bg, -2),
-        'editorHoverWidget.border': lightness(color.bg, -2),
-        'editorHoverWidget.highlightForeground': lightness(color.bg, 48),
-        'editorHoverWidget.statusBarBackground': lightness(color.bg, -2),
+        'editorHoverWidget.foreground': lightness(palette.bg, 32),
+        'editorHoverWidget.background': palette.base1,
+        'editorHoverWidget.border': palette.base1,
+        'editorHoverWidget.highlightForeground': lightness(palette.bg, 48),
+        'editorHoverWidget.statusBarBackground': palette.base1,
 
         // 'editorGhostText.border': '',
         // 'editorGhostText.background': '',

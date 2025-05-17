@@ -1,4 +1,4 @@
-exports.js = function(color, syntax) {
+exports.js = function(palette) {
     return [
         {
             scope: [
@@ -6,15 +6,15 @@ exports.js = function(color, syntax) {
                 'storage.type.interface.js',
                 'storage.type.class.js'
             ],
-            settings: { foreground: syntax.storage }
+            settings: { foreground: palette.storage }
         },
         {
             scope: [ 'support.type.object.module.js' ],
-            settings: { foreground: color.blue }
+            settings: { foreground: palette.blue }
         },
         {
             scope: [ 'keyword.operator.new.js' ],
-            settings: { foreground: color.blue }
+            settings: { foreground: palette.blue }
         },
     ];
 }

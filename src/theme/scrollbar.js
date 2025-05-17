@@ -1,10 +1,8 @@
-const { lightness } = require('../base/util');
-
-exports.scrollbar = function(color) {
+exports.scrollbar = function(palette) {
     return {
         'scrollbar.shadow': '#0000',
-        'scrollbarSlider.activeBackground': lightness(color.bg, 4),
-        'scrollbarSlider.background': lightness(color.bg, 4),
-        'scrollbarSlider.hoverBackground': lightness(color.bg, 4),
+        'scrollbarSlider.activeBackground': palette.base4,
+        'scrollbarSlider.background': palette.base4,
+        'scrollbarSlider.hoverBackground': palette.base4,
     }
 }

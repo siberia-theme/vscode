@@ -1,16 +1,16 @@
 const { lightness } = require('../base/util');
 
-exports.activityBar = function(color) {
+exports.activityBar = function(palette) {
     return {
-        'activityBar.background': lightness(color.bg, -2),
-        'activityBar.dropBorder': lightness(color.bg, -2),
-        'activityBar.foreground': color.fg,
-        'activityBar.inactiveForeground': lightness(color.bg, 24),
-        'activityBar.border': lightness(color.bg, -2),
-        'activityBarBadge.background': color.cyan,
-        'activityBarBadge.foreground': lightness(color.cyan, -32),
-        'activityBar.activeBorder': color.cyan,
-        'activityBar.activeBackground': color.bg,
-        'activityBar.activeFocusBorder': color.cyanBright,
+        'activityBar.background': palette.base1,
+        'activityBar.dropBorder': palette.base1,
+        'activityBar.foreground': palette.fg,
+        'activityBar.inactiveForeground': lightness(palette.bg, 24),
+        'activityBar.border': palette.base1,
+        'activityBarBadge.background': palette.cyan,
+        'activityBarBadge.foreground': lightness(palette.cyan, -32),
+        'activityBar.activeBorder': palette.cyan,
+        'activityBar.activeBackground': palette.bg,
+        'activityBar.activeFocusBorder': palette.cyanBright,
     }
 }

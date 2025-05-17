@@ -1,9 +1,8 @@
 const { lightness } = require('../base/util')
 
-exports.debug = function (color) {
+exports.debug = function (palette) {
     return {
-        'debugToolBar.background': lightness(color.bg, -2),
-
-        'debugIcon.breakpointForeground': color.red
+        'debugToolBar.background': palette.base1,
+        'debugIcon.breakpointForeground': palette.red
     }
 }

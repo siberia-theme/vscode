@@ -1,13 +1,13 @@
 const { lightness } = require('../base/util');
 
-exports.panel = function(color) {
+exports.panel = function(palette) {
     return {
-        'panel.background': color.bg,
-        'panel.border': color.bg,
-        'panel.dropBorder': lightness(color.bg, -2),
-        'panelTitle.activeBorder': color.bg,
-        'panelTitle.activeForeground': color.fg,
-        'panelTitle.inactiveForeground': color.fgMuted,
+        'panel.background': palette.bg,
+        'panel.border': palette.bg,
+        'panel.dropBorder': palette.base1,
+        'panelTitle.activeBorder': palette.bg,
+        'panelTitle.activeForeground': palette.fg,
+        'panelTitle.inactiveForeground': lightness(palette.bg, 30),
         // 'panelInput.border': '',
         // 'panelSection.border': '',
         // 'panelSection.dropBackground': '',

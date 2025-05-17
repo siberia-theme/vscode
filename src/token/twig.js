@@ -1,22 +1,22 @@
-exports.twig = function (color, syntax) {
+exports.twig = function (palette) {
     return [
         {
             scope: [ 'punctuation.section.tag.twig' ],
-            settings: { foreground: color.blueDark }
+            settings: { foreground: palette.blueDark }
         },
         {
             scope: [
                 'keyword.operator.logical.twig',
             ],
-            settings: { foreground: color.special }
+            settings: { foreground: palette.special }
         },
         {
             scope: [ 'meta.function-call.other.twig' ],
-            settings: { foreground: color.fgBright }
+            settings: { foreground: palette.fgBright }
         },
         {
             scope: [ 'meta.function-call.twig' ],
-            settings: { foreground: color.fgBright }
+            settings: { foreground: palette.fgBright }
         },
     ];
 }
